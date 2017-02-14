@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF86F3BF1E51674F00486966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3BE1E51674F00486966 /* AppDelegate.swift */; };
+		BF86F3C41E51674F00486966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF86F3C21E51674F00486966 /* Main.storyboard */; };
+		BF86F3C71E51674F00486966 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3C51E51674F00486966 /* Demo.xcdatamodeld */; };
+		BF86F3C91E51674F00486966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86F3C81E51674F00486966 /* Assets.xcassets */; };
+		BF86F3CC1E51674F00486966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF86F3CA1E51674F00486966 /* LaunchScreen.storyboard */; };
+		BF86F3D61E5167A200486966 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3D51E5167A200486966 /* FirstVC.swift */; };
+		BF86F3EC1E51681200486966 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3DD1E51681200486966 /* AFHTTPSessionManager.m */; };
+		BF86F3ED1E51681200486966 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3E01E51681200486966 /* AFNetworkReachabilityManager.m */; };
+		BF86F3EE1E51681200486966 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3E21E51681200486966 /* AFSecurityPolicy.m */; };
+		BF86F3EF1E51681200486966 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3E41E51681200486966 /* AFURLRequestSerialization.m */; };
+		BF86F3F01E51681200486966 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3E61E51681200486966 /* AFURLResponseSerialization.m */; };
+		BF86F3F11E51681200486966 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3E81E51681200486966 /* AFURLSessionManager.m */; };
+		BF86F3F21E51681200486966 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3EB1E51681200486966 /* MBProgressHUD.m */; };
+		BF86F3F41E5168B000486966 /* ServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3F31E5168B000486966 /* ServerCommunication.swift */; };
+		BF86F3F61E516B2600486966 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3F51E516B2600486966 /* Users.swift */; };
+		BF86F3F81E516F2400486966 /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3F71E516F2400486966 /* FirstCell.swift */; };
+		BF86F3FB1E5174B500486966 /* ConstantFuction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86F3FA1E5174B500486966 /* ConstantFuction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF86F3BB1E51674F00486966 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF86F3BE1E51674F00486966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF86F3C31E51674F00486966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF86F3C61E51674F00486966 /* Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo.xcdatamodel; sourceTree = "<group>"; };
+		BF86F3C81E51674F00486966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF86F3CB1E51674F00486966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF86F3CD1E51674F00486966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF86F3D51E5167A200486966 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		BF86F3D71E5167BF00486966 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF86F3DC1E51681200486966 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BF86F3DD1E51681200486966 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		BF86F3DE1E51681200486966 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		BF86F3DF1E51681200486966 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		BF86F3E01E51681200486966 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		BF86F3E11E51681200486966 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BF86F3E21E51681200486966 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		BF86F3E31E51681200486966 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		BF86F3E41E51681200486966 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		BF86F3E51E51681200486966 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BF86F3E61E51681200486966 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		BF86F3E71E51681200486966 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		BF86F3E81E51681200486966 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		BF86F3EA1E51681200486966 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BF86F3EB1E51681200486966 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BF86F3F31E5168B000486966 /* ServerCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerCommunication.swift; sourceTree = "<group>"; };
+		BF86F3F51E516B2600486966 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		BF86F3F71E516F2400486966 /* FirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		BF86F3FA1E5174B500486966 /* ConstantFuction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantFuction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF86F3B81E51674F00486966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF86F3B21E51674F00486966 = {
+			isa = PBXGroup;
+			children = (
+				BF86F3BD1E51674F00486966 /* Demo */,
+				BF86F3BC1E51674F00486966 /* Products */,
+				BF86F3D71E5167BF00486966 /* Demo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BF86F3BC1E51674F00486966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3BB1E51674F00486966 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF86F3BD1E51674F00486966 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3BE1E51674F00486966 /* AppDelegate.swift */,
+				BF86F3F91E51749A00486966 /* Constant */,
+				BF86F3DA1E5167DC00486966 /* OtherSDK */,
+				BF86F3D31E51677A00486966 /* Controller */,
+				BF86F3D41E51677A00486966 /* Model */,
+				BF86F3C21E51674F00486966 /* Main.storyboard */,
+				BF86F3C81E51674F00486966 /* Assets.xcassets */,
+				BF86F3CA1E51674F00486966 /* LaunchScreen.storyboard */,
+				BF86F3CD1E51674F00486966 /* Info.plist */,
+				BF86F3C51E51674F00486966 /* Demo.xcdatamodeld */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		BF86F3D31E51677A00486966 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3D51E5167A200486966 /* FirstVC.swift */,
+				BF86F3F71E516F2400486966 /* FirstCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF86F3D41E51677A00486966 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3F31E5168B000486966 /* ServerCommunication.swift */,
+				BF86F3F51E516B2600486966 /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF86F3DA1E5167DC00486966 /* OtherSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3DB1E51681200486966 /* AFNetworkingLib */,
+				BF86F3E91E51681200486966 /* ProcessHud */,
+			);
+			path = OtherSDK;
+			sourceTree = "<group>";
+		};
+		BF86F3DB1E51681200486966 /* AFNetworkingLib */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3DC1E51681200486966 /* AFHTTPSessionManager.h */,
+				BF86F3DD1E51681200486966 /* AFHTTPSessionManager.m */,
+				BF86F3DE1E51681200486966 /* AFNetworking.h */,
+				BF86F3DF1E51681200486966 /* AFNetworkReachabilityManager.h */,
+				BF86F3E01E51681200486966 /* AFNetworkReachabilityManager.m */,
+				BF86F3E11E51681200486966 /* AFSecurityPolicy.h */,
+				BF86F3E21E51681200486966 /* AFSecurityPolicy.m */,
+				BF86F3E31E51681200486966 /* AFURLRequestSerialization.h */,
+				BF86F3E41E51681200486966 /* AFURLRequestSerialization.m */,
+				BF86F3E51E51681200486966 /* AFURLResponseSerialization.h */,
+				BF86F3E61E51681200486966 /* AFURLResponseSerialization.m */,
+				BF86F3E71E51681200486966 /* AFURLSessionManager.h */,
+				BF86F3E81E51681200486966 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworkingLib;
+			sourceTree = "<group>";
+		};
+		BF86F3E91E51681200486966 /* ProcessHud */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3EA1E51681200486966 /* MBProgressHUD.h */,
+				BF86F3EB1E51681200486966 /* MBProgressHUD.m */,
+			);
+			path = ProcessHud;
+			sourceTree = "<group>";
+		};
+		BF86F3F91E51749A00486966 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				BF86F3FA1E5174B500486966 /* ConstantFuction.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF86F3BA1E51674F00486966 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF86F3D01E51674F00486966 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				BF86F3B71E51674F00486966 /* Sources */,
+				BF86F3B81E51674F00486966 /* Frameworks */,
+				BF86F3B91E51674F00486966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = BF86F3BB1E51674F00486966 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF86F3B31E51674F00486966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bunty;
+				TargetAttributes = {
+					BF86F3BA1E51674F00486966 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PLURSQEEM8;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF86F3B61E51674F00486966 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF86F3B21E51674F00486966;
+			productRefGroup = BF86F3BC1E51674F00486966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF86F3BA1E51674F00486966 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF86F3B91E51674F00486966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86F3CC1E51674F00486966 /* LaunchScreen.storyboard in Resources */,
+				BF86F3C91E51674F00486966 /* Assets.xcassets in Resources */,
+				BF86F3C41E51674F00486966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF86F3B71E51674F00486966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86F3F11E51681200486966 /* AFURLSessionManager.m in Sources */,
+				BF86F3C71E51674F00486966 /* Demo.xcdatamodeld in Sources */,
+				BF86F3D61E5167A200486966 /* FirstVC.swift in Sources */,
+				BF86F3ED1E51681200486966 /* AFNetworkReachabilityManager.m in Sources */,
+				BF86F3F61E516B2600486966 /* Users.swift in Sources */,
+				BF86F3BF1E51674F00486966 /* AppDelegate.swift in Sources */,
+				BF86F3FB1E5174B500486966 /* ConstantFuction.swift in Sources */,
+				BF86F3EE1E51681200486966 /* AFSecurityPolicy.m in Sources */,
+				BF86F3EF1E51681200486966 /* AFURLRequestSerialization.m in Sources */,
+				BF86F3F41E5168B000486966 /* ServerCommunication.swift in Sources */,
+				BF86F3F21E51681200486966 /* MBProgressHUD.m in Sources */,
+				BF86F3F01E51681200486966 /* AFURLResponseSerialization.m in Sources */,
+				BF86F3EC1E51681200486966 /* AFHTTPSessionManager.m in Sources */,
+				BF86F3F81E516F2400486966 /* FirstCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF86F3C21E51674F00486966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF86F3C31E51674F00486966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF86F3CA1E51674F00486966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF86F3CB1E51674F00486966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF86F3CE1E51674F00486966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF86F3CF1E51674F00486966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF86F3D11E51674F00486966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PLURSQEEM8;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MLS.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF86F3D21E51674F00486966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PLURSQEEM8;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MLS.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF86F3B61E51674F00486966 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86F3CE1E51674F00486966 /* Debug */,
+				BF86F3CF1E51674F00486966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF86F3D01E51674F00486966 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86F3D11E51674F00486966 /* Debug */,
+				BF86F3D21E51674F00486966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF86F3C51E51674F00486966 /* Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF86F3C61E51674F00486966 /* Demo.xcdatamodel */,
+			);
+			currentVersion = BF86F3C61E51674F00486966 /* Demo.xcdatamodel */;
+			path = Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF86F3B31E51674F00486966 /* Project object */;
+}
